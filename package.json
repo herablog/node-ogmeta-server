@@ -1,0 +1,32 @@
+{
+  "name": "node-ogmeta-server",
+  "version": "0.0.1",
+  "description": "A web server to get the Open Graph Meta Data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herablog/node-ogmeta-server"
+  },
+  "keywords": [
+    "node",
+    "Open",
+    "Graph",
+    "server"
+  ],
+  "author": "hara_kazunari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herablog/node-ogmeta-server/issues"
+  },
+  "homepage": "https://github.com/herablog/node-ogmeta-server",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "express": "^4.11.2",
+    "lodash": "^3.1.0",
+    "optimist": "^0.6.1",
+    "request": "^2.53.0"
+  }
+}
